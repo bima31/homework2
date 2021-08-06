@@ -1,0 +1,234 @@
+
+body {
+    background: linear-gradient(175deg,#868da7 30%, #4d5266 70%);
+    font-family: Parkavenue, cursive;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    background-color: #E1F1F2;
+}
+#nav {
+    background-color: #e6d2d1;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #4d5266;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #4d5266;
+    padding: 0px;
+    text-align: center;
+}
+
+h3 {
+    color: #4d5266;
+    margin: 0.5em;
+    text-align: center;
+    width: 80%;
+}
+aside {
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    padding: 5px;
+}
+#div1{
+    width: 80%;
+    height: 360px;
+    border: 1px solid #868da7;
+}
+#div1 img {
+    width: 240px;
+    margin: 1% 9%;
+    transform: rotate(10deg);
+}
+#div2{
+    margin-top: 1em;
+}
+#div2 a {
+    font-size: 10pt;
+    color: black;
+    text-decoration: none;
+}
+#div2 a:hover {
+    font-size: 10pt;
+    color: #e6d2d1;
+    -webkit-text-stroke: 0.3px black;
+    text-decoration: none;
+}
+
+#div2 a img{
+    height: 24px;
+    vertical-align: middle;
+}
+section{
+    width: 64%;
+    float: right;
+}
+#main {
+    margin-right: 30px;
+    line-height: 20px;
+}
+#main p {
+    text-align: justify;
+}
+footer {
+    height: 50px;
+    background-color: #e6d2d1;
+    clear: both;
+}
+footer p {
+    color: #4d5266;
+    padding: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #4d5266;
+    color: #e6d2d1;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 101%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media all and (min-width: 480px) and (max-width: 720px) {
+    h3{
+        width: 100%;
+    }
+    .container,
+    section,
+    aside {
+        border-radius: 6px;
+    }
+    section,
+    aside {
+        margin: 5% 10%;
+        padding: 20px 0;
+        text-align: justify;
+    }
+    section {
+        float: left;
+        width: 80%;
+    }
+    aside {
+        width: 80%;
+    }
+    #div1{
+        width: 100%;
+    }
+    #div1 img {
+        width: 240px;
+        margin: 1% 9%;
+        transform: rotate(10deg);
+    }
+
+}
+
+@media all and (min-width: 720px) and (max-width: 1240px) {
+    h3{
+        width: 100%;
+    }
+    .container,
+    section,
+    aside {
+        border-radius: 6px;
+    }
+    section,
+    aside {
+        margin: 5% 10%;
+        padding: 20px 0;
+        text-align: justify;
+    }
+    section {
+        float: left;
+        width: 80%;
+    }
+    aside {
+        width: 80%;
+    }
+    #div1{
+        width: 100%;
+    }
+    #div1 img {
+        width: 240px;
+        margin: 1% 30%;
+        transform: rotate(10deg);
+    }
+
+}
+
+@media all and (min-width: 1240px) and (max-width: 1530px) {
+    h3{
+        width: 100%;
+    }
+    .container,
+    section,
+    aside {
+        border-radius: 6px;
+    }
+    section,
+    aside {
+        margin: 5% 10%;
+        padding: 20px 0;
+        text-align: justify;
+    }
+    section {
+        float: left;
+        width: 80%;
+    }
+    aside {
+        width: 80%;
+    }
+    #div1{
+        width: 100%;
+    }
+    #div1 img {
+        width: 240px;
+        margin: 1% 35%;
+        transform: rotate(10deg);
+    }
+
+}
